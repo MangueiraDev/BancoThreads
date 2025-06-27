@@ -1,0 +1,14 @@
+# Arquivos de build
+*.o
+*.out
+*.exe
+banco_mutex
+banco_semaphore
+banco_monitor
+
+# Arquivos temporários
+*~
+*.log
+
+# Diretório do VS Code
+.vscode/

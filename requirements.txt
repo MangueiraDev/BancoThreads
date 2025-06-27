@@ -1,0 +1,9 @@
+# Ferramentas de compilação
+gcc
+make
+
+# Threads POSIX (inclusas no macOS)
+pthread
+
+# Editor recomendado
+Visual Studio Code
