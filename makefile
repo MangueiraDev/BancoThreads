@@ -7,7 +7,11 @@ CC = gcc
 
 CFLAGS = -Wall -pthread
 
-SRCS = main.c banco.c
+SRC_DIR = src
+
+SRCS = $(wildcard $(SRC_DIR)/*.c)
+
+
 OBJS = $(SRCS:.c=.o)
 
 
