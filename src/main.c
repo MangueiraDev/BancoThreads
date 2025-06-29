@@ -72,7 +72,7 @@ void* consumidor(void* arg) {
         sem_getvalue(&sem_itens, &valor_itens);
 
         if (valor_itens == 0) {
-            printf("[Aviso] A fila está cheia! Produtor vai esperar...\n");
+            printf("[Aviso] A fila está vazia! Consumidor vai esperar...\n");
         }
         sem_wait(&sem_itens);     
         sem_wait(&mutex_fila);
